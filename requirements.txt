@@ -1,8 +1,8 @@
 werkzeug==0.16.0
-itsdangerous==2.1.0
+itsdangerous==1.1.0
 markupsafe==2.0.1
 Jinja2==2.11.3
-Flask==1.1.2
+Flask==1.1.4
 dash==1.21.0
 dash-bootstrap-components
 pandas
