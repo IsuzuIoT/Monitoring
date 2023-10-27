@@ -1,4 +1,4 @@
-dash==2.6.0
+dash
 pandas
-dash_bootstrap_components as dbc
+plotly
 gunicorn
