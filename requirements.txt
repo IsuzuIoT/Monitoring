@@ -3,3 +3,4 @@ dash-bootstrap-components
 pandas
 plotly
 gunicorn
+mysql-connector-python==8.0.27
