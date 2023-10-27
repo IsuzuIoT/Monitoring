@@ -16,10 +16,10 @@ MYSQL_PASSWORD = "12345"
 MYSQL_DB = "isuzudb"
 
 # Initialize the Dash app and include bootstrap styles for UI aesthetics
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 app - Dash(__name__)
-server - app.server
+server = app.server
 
 # Convert time in string format to a timedelta object for easy calculations
 def str_to_timedelta(time_str):
