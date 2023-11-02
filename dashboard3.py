@@ -9,7 +9,7 @@ import threading
 import csv
 from io import StringIO
 
-mqttServer = "10.63.29.96"
+mqttServer = "172.16.200.168"
 
 # MySQL server configuration details
 MYSQL_HOST = "localhost"
