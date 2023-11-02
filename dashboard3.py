@@ -9,7 +9,7 @@ import threading
 import csv
 from io import StringIO
 
-mqttServer = "172.16.200.168"
+mqttServer = "3faf5e66f2c64a618c226e9421b6a461.s1.eu.hivemq.cloud"
 
 # MySQL server configuration details
 MYSQL_HOST = "localhost"
@@ -45,7 +45,7 @@ class RealTimeMonitor:
         self.client = mqtt.Client()
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message
-        self.client.connect(mqttServer, 1883, 0)
+        self.client.connect(mqttServer, 8883, 0)
 
     def on_connect(self, client, userdata, flags, rc):
         print("Connected with result code " + str(rc))
