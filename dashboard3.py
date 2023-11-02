@@ -7,6 +7,7 @@ import mysql.connector
 import time
 import threading
 import csv
+import os
 from io import StringIO
 
 mqttServer = "3faf5e66f2c64a618c226e9421b6a461.s1.eu.hivemq.cloud"
