@@ -233,7 +233,7 @@ def trigger_download(data):
 
 if __name__ == '__main__':
     try:
-        app.run_server(debug=True, host='0.0.0.0', port=8080)
+        app.run_server(debug=True, host='0.0.0.0', int(os.environ.get("PORT", 10000)))
     except KeyboardInterrupt:
         print("\nScript terminated.")
         monitor.client.disconnect()  # Disconnect the MQTT client
