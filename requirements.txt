@@ -1,4 +1,3 @@
-time
 Flask
 dash
 dash-bootstrap-components
