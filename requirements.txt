@@ -1,6 +1,4 @@
-Flask
-dash
-dash-bootstrap-components
-plotly
-gunicorn
-mysql-connector-python
+dash==1.21.0
+dash-bootstrap-components==1.10.2
+mysql-connector-python==8.0.28
+gunicorn==20.1.0
