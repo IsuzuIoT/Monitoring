@@ -72,6 +72,7 @@ def get_time_data():
     return date, clock, "Run Time", "Idle Time", "Down Time", runtime, idletime, downtime, total_time, runtime_percent, idletime_percent, downtime_percent
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.layout = dbc.Container([
     html.Div([
